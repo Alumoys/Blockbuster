@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/futura-display');
+
+:root {
+    --color-azul-: #0046AD;
+    --color-amarelo: #FFD400;
+    --color-branco: #FFFFFF;
+    /* Cores complementares: */
+    --color-cinza-claro: #E0E0E0;
+    --color-laranja-queimado: #FF6F00;
+    --color-roxo-escuro: #5E005E;
+    /* Cores adicionais: */
+    --color-azul-marinho-escuro :#002D72;
+    --color-laranja-vibrante:#FF6F00 ;
+    --color-cinza-claro:#E0E0E0 ;
+    --color-preto-suave: #333333 ;
+    --color-cinza-azul:#A3B1C6;
+}
+
+/* header */
+header {
+    background-color: var(--color-azul-marinho-escuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blockbuster-logo {
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-azul-);
+    border-radius: 7px;
+    border: 5px solid var(--color-amarelo);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: skew(-10deg) rotate(-5deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.blockbuster-text {
+    font-family: 'Futura Display', sans-serif;
+    color: var(--color-amarelo);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: rotate(-1deg);
+    text-transform: uppercase;
+    text-align: center;
+}
+/* footer */
+footer{
+    background-color: var(--color-azul-marinho-escuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.blockbuster-logo-samll{
+    margin: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: var(--color-azul-);
+    border-radius: 4px;
+    border: 3px solid var(--color-amarelo);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: skew(-10deg) rotate(-5deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.blockbuster-text-samll{
+    font-family: 'Futura Display', sans-serif;
+    color: var(--color-amarelo);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: rotate(-1deg);
+    text-transform: uppercase;
+    text-align: center;
+}
+.blockbuster-social{
+    width: 200px;
+    height: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    font-size: 20px;
+    color: var(--color-laranja-vibrante);
+    display: flex;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    color: var(--color-amarelo);
+}
+/* main */
