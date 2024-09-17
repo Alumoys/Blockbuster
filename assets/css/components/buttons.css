@@ -1,0 +1,30 @@
+@import url('../base/color.css');
+
+.btn-search{
+    border: 2px solid transparent;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Futura Display', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.btn-search:hover{
+    border: 2px solid var(--color-amarelo);
+    transition: 0.5s;
+    color: var(--color-amarelo);
+    background-color: var(--color-azul-);
+    border-radius: 4px;
+}
+/* cadastro */
+.btn-cadastro{
+    border: 2px solid var(--color-amarelo);
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Futura Display', sans-serif;
+    color: var(--color-amarelo);
+    background-color: var(--color-azul-);
+    letter-spacing: 1px;
+}

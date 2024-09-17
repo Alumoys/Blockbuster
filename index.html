@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font blockbuster -->
+    <link
+      href="https://fonts.cdnfonts.com/css/futura-display"
+      rel="stylesheet"
+    />
+    <!-- link for stylesheets -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <title>Blockbuster</title>
+  </head>
+  <body>
+
+    <header>
+
+      <div class="blockbuster-logo">
+        <div class="blockbuster-text">Blockbuster</div>
+      </div>
+
+      <div class="content-search">
+        <input class="search" type="text" id="busca" placeholder="Digite o nome do filme" />
+        <button onclick="buscarFilme()" class="btn-search">Buscar</button>
+      </div>
+      <nav>
+        <a href="./catalogo.html">Catálogo</a>
+      </nav>
+
+    </header>
+
+    <main>
+      <!-- cadastrar film -->
+      <div class="form_register_film">
+        <h2>Cadastrar Novo Filme</h2>
+        <label for="nome">Nome do filme:</label>
+        <input type="text" id="nome" placeholder="Insira o nome do filme" />
+
+        <label for="classificacao">Classificação indicativa:</label>
+        <input
+          type="text"
+          id="classificacao"
+          placeholder="Ex: Livre, 12 anos, etc."
+        />
+
+        <label for="duracao">Duração (minutos):</label>
+        <input type="number" id="duracao" placeholder="Duração em minutos" />
+
+        <label for="genero">Gênero:</label>
+        <input
+          type="text"
+          id="genero"
+          placeholder="Ex: Ação, Comédia, Drama, etc."
+        />
+
+        <label for="ano">Ano de lançamento:</label>
+        <input type="number" id="ano" placeholder="Ano de lançamento" />
+
+        <label for="sinopse">Sinopse:</label>
+        <textarea
+          id="sinopse"
+          rows="4"
+          placeholder="Insira a sinopse do filme"
+        ></textarea>
+
+        <button onclick="cadastrarFilme()" class="btn-cadastro">Cadastrar Filme</button>
+      </div>
+
+      <!-- <div class="content_search">
+        <h2>Buscar Filme por Nome</h2>
+        <input type="text" id="busca" placeholder="Digite o nome do filme" />
+        <button onclick="buscarFilme()">Buscar</button>
+      </div>
+
+      <div class="content_lista_films">
+        <h2>Todos os Filmes Cadastrados</h2>
+        <button onclick="listarFilmes()">Exibir Todos os Filmes</button>
+
+        <div id="lista-filmes" class="filmes-lista"></div>
+      </div> -->
+    </main>
+
+    <footer>
+
+      <div class="blockbuster-logo-samll">
+        <div class="blockbuster-text-samll">Blockbuster &copy</div>
+      </div>
+
+      <nav class="nav-footer">
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <nav>
+        <a href="#" class="link-footer"
+          ><i class="fa-brands fa-bluesky"></i
+        ></a>
+        <a href="#" class="link-footer"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a href="#" class="link-footer">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </nav>
+
+    </footer>
+    <script type="module" src="./assets/js/index.js"></script>
+    <script type="module" src="./assets/js/catalogo.js"></script>
+  </body>
+</html>
