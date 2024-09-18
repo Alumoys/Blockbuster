@@ -1,0 +1,15 @@
+:root {
+    --color-azul-: #0046AD;
+    --color-amarelo: #FFD400;
+    --color-branco: #FFFFFF;
+    /* Cores complementares: */
+    --color-cinza-claro: #E0E0E0;
+    --color-laranja-queimado: #FF6F00;
+    --color-roxo-escuro: #5E005E;
+    /* Cores adicionais: */
+    --color-azul-marinho-escuro :#002D72;
+    --color-laranja-vibrante:#FF6F00 ;
+    --color-cinza-claro:#E0E0E0 ;
+    --color-preto-suave: #333333 ;
+    --color-cinza-azul:#A3B1C6;
+}

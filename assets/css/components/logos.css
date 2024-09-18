@@ -1,0 +1,54 @@
+/* impotação de cores */
+@import url('../base/color.css');
+@import url('../base/typography.css');
+
+/*=== Logo header ===*/
+.blockbuster-logo {
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-azul-);
+    border-radius: 7px;
+    border: 5px solid var(--color-amarelo);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: skew(-10deg) rotate(-4deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.blockbuster-text {
+    font-family: 'Futura Display', sans-serif;
+    color: var(--color-amarelo);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: rotate(-1deg);
+    text-transform: uppercase;
+    text-align: center;
+}
+/*=== logo footer ===*/
+.blockbuster-logo-samll{
+    margin: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: var(--color-azul-);
+    border-radius: 4px;
+    border: 3px solid var(--color-amarelo);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: skew(-10deg) rotate(-5deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.blockbuster-text-samll{
+    font-family: 'Futura Display', sans-serif;
+    color: var(--color-amarelo);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: rotate(-1deg);
+    text-transform: uppercase;
+    text-align: center;
+}
