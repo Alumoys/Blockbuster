@@ -1,0 +1,49 @@
+@import url('../base/color.css');
+
+.btn-search{
+    border: 2px solid transparent;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Futura Display', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.btn-search:hover{
+    border: 2px solid var(--color-amarelo);
+    transition: 0.5s;
+    color: var(--color-amarelo);
+    background-color: var(--color-azul-);
+    border-radius: 4px;
+}
+/* cadastro */
+
+.btn-cadastro{
+    margin-top: 5px;
+    border: 2px solid var(--color-preto-suave);
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+}
+.btn-cadastro:hover{
+    transition: 0.5s;
+    color: var(--color-amarelo);
+    background-color: var(--color-azul-);
+    border: 2px solid var(--color-amarelo);
+}
+/* editar item */
+.editar-item{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px;
+}
+.editar-item:hover{
+    border: 2px solid var(--color-amarelo);
+    color: var(--color-amarelo);
+    background: var(--color-azul-);
+}

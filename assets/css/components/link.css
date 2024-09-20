@@ -1,0 +1,33 @@
+@import url('../base/typography.css');
+@import url('../base/normalize.css');
+@import url('../base/color.css');
+
+.pages-links{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--color-branco);
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+a:hover{
+    transition: 1s;
+    color: var(--color-amarelo);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); ;
+}
+/* links redes socias */
+.link-footer{
+    color: var(--color-branco);
+}
+nav{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
