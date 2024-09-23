@@ -1,0 +1,10 @@
+@import url('../base/normalize.css');
+@import url('../base/typography.css');
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}

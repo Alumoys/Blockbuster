@@ -1,0 +1,10 @@
+
+@import url('../base/color.css');
+@import url('../base/typography.css');
+
+header {
+    background-color: var(--color-azul-marinho-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

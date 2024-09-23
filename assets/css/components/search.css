@@ -1,0 +1,18 @@
+@import url('../base/color.css');
+@import url('../base/typography.css');
+
+.content-search{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: var(--color-branco);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.search{
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}

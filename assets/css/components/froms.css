@@ -1,0 +1,40 @@
+@import url('../base/color.css');
+@import url('../base/typography.css');
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width:  600px;
+    height: auto;
+    border: 1px solid var(--color-preto-suave);
+    border: 4px;
+    gap: 5px;
+}
+
+
+/* input text */
+input{
+    outline: none;
+    border: none;
+    background: var(--color-branco) ;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid var(--color-preto-suave);
+}
+
+textarea{
+    padding: 5px;
+    padding: 4px;
+    font-family: "Anton", sans-serif;
+    border-radius: 4px;
+}
+.categoria{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
